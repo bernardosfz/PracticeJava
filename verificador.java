@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class teste{
+public class verificador{
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
 
@@ -16,11 +16,13 @@ public class teste{
                     break;
             }
         }
+        
         if (validador == 1) {
             System.out.println("Existe");
         } else {
             System.out.println("Não Existe");
         }
+        
         input.close();
     }
 }
